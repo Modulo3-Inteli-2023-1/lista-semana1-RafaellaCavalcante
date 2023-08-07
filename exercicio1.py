@@ -9,6 +9,6 @@ def multiplas_operacoes(x, y): #função com parâmetros x e y.
     soma = x + y #operação de soma
     subtracao = x - y #operação de subtração
     multiplicacao = x * y #operação de multiplicação
-    return {soma, subtracao, multiplicacao, divisao} #vai retornar o resultado de cada operação
+    return soma, subtracao, multiplicacao, divisao #vai retornar o resultado de cada operação
 
 # Teste a sua função aqui (caso ache necessário)
